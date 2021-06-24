@@ -3,19 +3,19 @@ import ContactMe from "components/ContactMe";
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-  padding: 4em;
+  padding: 3em;
   background: #444972;
 `;
 const Title = styled.div`
-  padding-bottom: 3vh;
+  padding-bottom: 3em;
 `;
 
 const FontTitle = styled.div`
   color: #ffffff;
   font-family: "Satisfy", cursive;
-  font-size: 7vw;
+  font-size: 7em;
   letter-spacing: -0.02em;
-  line-height: 76px;
+  line-height: 1em;
 `;
 
 const FontBio = styled.div`
@@ -23,17 +23,17 @@ const FontBio = styled.div`
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-align: left;
-  font-size: 2vw;
+  font-size: 2em;
 `;
 
 const FontStacks = styled.div`
   color: #ffffff;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  font-size: 1vw;
+  font-size: 1em;
   font-style: italic;
   text-align: center;
-  padding: 1vh;
+  padding: 1em;
 `;
 export default class Bio extends React.Component {
   render() {
