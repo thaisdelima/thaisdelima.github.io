@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import image from "../images/imageBio.png";
+import image from '../images/imageBio.png';
 
 const Wrapper = styled.section`
   padding: 3em;
