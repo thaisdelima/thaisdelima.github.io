@@ -15,10 +15,12 @@ const StyledUl = styled.ul`
     color: #ffffff;
     padding: 1rem;
     text-decoration: none;
+    font-size: 1rem;
 
     &:hover {
       font-weight: 800;
       text-decoration: underline;
+      font-size: 1.2rem;
     }
   }
 `;
