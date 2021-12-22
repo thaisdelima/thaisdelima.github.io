@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.sass'
-import Home from "./views/Home/Home";
-import NavBar from "./components/NavBar/NavBar";
+import { useState } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Home from './views/Home/Home';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <NavBar />
       <Home />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
